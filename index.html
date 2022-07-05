@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My page</title>
+</head>
+<body>
+    <section id="main">
+
+ <select id="options" onchnge="getSelectValue();">
+    <option value="jupiter">jupiter</option>
+    <option value="satern">satern</option>
+    <option value="mars">mars</option>
+    <option value="venus">venus</option>
+    <option value="earth">earth</option>
+    <option value="mercury">mercury</option>
+ </select>
+ <script type="javascript">
+
+function getSelectValue()
+{
+ var selectedValue = document.getElementById("list").value;
+console.log(selectedValue);
+}
+
+
+ </script>
+</section>
+</body>
+</html>
